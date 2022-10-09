@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio bara cisse</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" >
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+ <!--début de la section des en-têtes-->
+
+<header>
+    <div class="user">
+        <img src="images/pro.png" alt="">
+        <h3 class="name">bara cisse</h3>
+        <p class="post">étudiant en développeur web</p>       
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">accueil</a></li>
+            <li><a href="#about">à propos</a></li>
+            <li><a href="#education">formation</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>    
+    </nav>
+</header>
+
+<div id="menu" class="fas fa-bars"></div>
+
+
+<!-- section accueil-->
+<section class="home" id="home">
+    <h3>à propos de moi </h3>
+    <h1>Je suis <span>bara cissé</span></h1>
+    <p>Extrêmement motivé pour développer constamment mes compétences
+        et évoluer professionnellement.
+        Je suis très passionné par l'informatique, je suis attiré par la créativité,
+        la pratique et l’adaptabilité qui est nécessaire à ce métier.
+    </p>
+    <a href="#about"><button class="btn">à propos de moi <i class="fas fa-user"></i></button></a>
+    
+</section>
+
+
+<!-- section propos-->
+<section class="about" id="about">
+<h1 class="heading"><span>une présentation de</span> moi</h1>
+<div class="row">
+    <div class="info">
+    <h3><span> nom : </span> bara cisse </h3>
+    <h3><span> age : </span> 28 ans</h3>
+    <h3><span> post : </span> développeur web </h3>
+    <h3><span> langue : </span> français </h3>
+    <a href="doc/CV.pdf"><button class="btn">télécharger le cv <i class="fas fa-download"></i></button></a>
+    </div>
+
+<div class="counter">
+    <div class="box">
+        <span>1+</span>
+        <h3>années d'expériences</h3>       
+    </div>
+    
+    <div class="box">
+        <span>3+</span>
+        <h3>projet complet</h3>        
+    </div>
+
+    <div class="box">
+        <span>20+</span>
+        <h3>clients satisfaits</h3>        
+    </div>
+    <div class="box">
+        <span>12+</span>
+        <h3>prix gagnées</h3>       
+    </div>
+</div>
+ </div>
+</section>
+
+
+
+<!-- section formation-->
+<section class="education" id="education">
+<h1 class="heading">ma<span> formation</span> </h1>
+<div class="box-container">
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2022 - 2023</span>
+        <h3> BACHELOR DEVELOPPEUR WEB</h3>
+        <p>EPSI- Lille</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2021 - 2022</span>
+        <h3> BACHELOR DEVELOPPEUR PYTHON</h3>
+        <p>Studi Campus Educative</p>
+    </div>
+    
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2019 - 2021</span>
+        <h3> BTS SYSTEMES NUMERIQUES</h3>
+        <p>Lycée Blaise Pascal de Longuenesse (Pas-de-Calais)</p>
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- section portfolio-->
+
+<section class="portfolio" id="portfolio">
+<h1 class="heading">mon <span>portfolio</span> </h1>
+<div class="box-container">
+    <div class="box">
+        <img src="images/img1.jpg" alt="">
+    </div>
+    <div class="box">
+        <img src="images/img2.jpg" alt="">
+    </div>*
+    <div class="box">
+        <img src="images/img3.jpg" alt="">
+    </div>
+    <div class="box">
+        <img src="images/img4.jpg" alt="">
+    </div>
+</div>
+</section>
+
+
+
+
+<!-- section contact-->
+
+<section class="contact" id="contact">
+<h1 class="heading">contacter <span>moi</span> </h1>
+<div class="row">
+    <div class="content">
+
+        <h3 class="title"> contact</h3>
+        <div class="info">
+            <h3><i class="fas fa-envelope"></i>cis7bara@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i>07-50-09-31-93</h3>
+            <h3><i class="fas fa-map-marker-alt"></i>26 rue de lille, 59100 roubaix</h3>
+        </div>
+
+    </div>
+
+    <form action="">
+        <input type="text" placeholder="nom" class="box" >
+        <input type="email" placeholder="email" class="box" >
+        <input type="text" placeholder="projet" class="box" >
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <button type="submit" class="btn">envoyer <i class="fas fa-paper-plane"></i></button>
+    </form>
+
+</div>
+</section>
+
+<!-- scroll top button -->
+<a href="#home" class="top">
+  <img src="images/pro.png">  
+
+
+</a>
+
+
+
+
+<!-- jquery cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>    
+
+<!-- custom js file link -->
+<script type="js/script.js"></script>
+    
+</body>
+</html>
